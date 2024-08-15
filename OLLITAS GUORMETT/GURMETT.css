@@ -1,0 +1,151 @@
+/* Estilo General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    padding: 10px;
+}
+
+.nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Sección de Inicio */
+.inicio-section {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('fondo\ de\ estilo\ ollitas.jpeg') no-repeat center center/cover;
+    color: white;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+}
+
+#contact-form {
+    display: inline-block;
+    text-align: left;
+}
+
+#contact-form label, #contact-form input {
+    display: block;
+    margin: 10px 0;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.inicio-section button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.inicio-section button:hover {
+    background-color: #c0392b;
+}
+
+/* Sección del Menú */
+.menu-section {
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.menu-section h2 {
+    margin-bottom: 40px;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+    color: #e74c3c;
+}
+
+/* Sección de la Galería */
+.galeria-section {
+    padding: 60px 20px;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.galeria-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+}
+
+.footer .social-media a {
+    margin: 0 10px;
+    color: white;
+}
+
+.footer .social-media a:hover {
+    color: #f39c12;
+}
